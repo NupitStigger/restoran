@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Наш ресторан</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap&subset=cyrillic,cyrillic-ext">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<header><div class="c">
+<a href="#home" class="logo"><img src="img/logo.png" alt="logo"></a>
+<nav id="nav"><a href="#home" data-i="n1">Главная</a><a href="#menu" data-i="n2">Меню</a><a href="#about" data-i="n3">О нас</a><a href="#contact" data-i="n4">Бронь</a></nav>
+<button class="cartb" id="cb" aria-label="cart"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M2 3h3l3 12h11l2-8H6"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/></svg><b id="cn">0</b></button>
+<div class="ph"><b><a href="tel:+9998887654">+999-888-76-54</a></b><small data-i="call">Свяжитесь с нами для бронирования</small></div>
+<button class="btn" data-open="bk" data-i="book">Заказ столика</button>
+<div class="lang"><button data-l="ru" class="on">RU</button><button data-l="kk">KZ</button><button data-l="en">EN</button></div>
+<button class="burger" id="bg" aria-label="menu"><i></i></button>
+</div></header>
+
+<section class="hero" id="home"><div class="c"><div class="hero-in">
+<p data-i="w1">Добро пожаловать в</p><h1 data-i="w2">Наш ресторан</h1><div class="tag" data-i="tag">ДОМ ЛУЧШЕЙ ЕДЫ</div>
+<a href="#menu" class="btn" data-i="vm">View menu</a></div></div></section>
+
+<section class="feat"><div class="c">
+<div class="fc"><svg viewBox="0 0 48 40"><path d="M6 32h36M10 32a14 14 0 0 1 28 0M24 14v-3M21 11h6M17 5c-2 2 2 3 0 6M24 3c-2 2 2 3 0 6M31 5c-2 2 2 3 0 6"/></svg><h3 data-i="f1t"></h3><p data-i="f1p"></p></div>
+<div class="fc"><svg viewBox="0 0 48 40"><path d="M6 32h36M10 32a14 14 0 0 1 28 0M24 14v-3M21 11h6M17 5c-2 2 2 3 0 6M24 3c-2 2 2 3 0 6M31 5c-2 2 2 3 0 6"/></svg><h3 data-i="f2t"></h3><p data-i="f2p"></p></div>
+<div class="fc"><svg viewBox="0 0 48 40"><path d="M6 32h36M10 32a14 14 0 0 1 28 0M24 14v-3M21 11h6M17 5c-2 2 2 3 0 6M24 3c-2 2 2 3 0 6M31 5c-2 2 2 3 0 6"/></svg><h3 data-i="f3t"></h3><p data-i="f3p"></p></div>
+</div></section>
+
+<section class="story" id="about"><div class="c"><div>
+<h2 data-i="st"></h2><p data-i="sp"></p>
+<div class="st"><div><b data-n="93">0</b><span data-i="s1">Напитки</span></div><div><b data-n="206">0</b><span data-i="s2">Еда</span></div><div><b data-n="71">0</b><span data-i="s3">Закуски</span></div></div></div>
+<img src="img/story.png" alt="" loading="lazy"></div></section>
+
+<section class="promo"><div class="c"><div><h3 data-i="pt"></h3><p data-i="pp"></p></div><button class="btn" data-open="bk" data-i="book">Заказ столика</button></div></section>
+
+<section class="dishes"><h2 class="t" data-i="dt"></h2><div class="c">
+<img class="big" src="img/pizza.jpg" alt="" loading="lazy">
+<div class="dl">
+<div class="di"><img src="img/burger-mini.jpg" alt=""><span data-i="mini">Гамбургер мини</span><i></i><span>220 ₽</span></div>
+<div class="di"><img src="img/burger-mini.jpg" alt=""><span data-i="mini">Гамбургер мини</span><i></i><span>220 ₽</span></div>
+<div class="di"><img src="img/burger-mini.jpg" alt=""><span data-i="mini">Гамбургер мини</span><i></i><span>220 ₽</span></div>
+</div></div></section>
+
+<section class="menu" id="menu"><div class="c"><h2 data-i="mt">Наше меню</h2><div class="mg">
+<div class="mc"><em data-i="rec">Recommended</em><div class="mi"><img src="img/burger-maxi.png" alt=""><b>420</b></div><h4 data-i="mx">Гамбургер макси</h4><p data-i="mp">Максимально толстый слой мяса</p><button class="btn add" data-p="420" data-i="ord">Заказать</button></div>
+<div class="mc"><div class="mi"><img src="img/burger-maxi.png" alt=""><b>420</b></div><h4 data-i="mx">Гамбургер макси</h4><p data-i="mp">Максимально толстый слой мяса</p><button class="btn add" data-p="420" data-i="ord">Заказать</button></div>
+<div class="mc"><div class="mi"><img src="img/burger-maxi.png" alt=""><b>420</b></div><h4 data-i="mx">Гамбургер макси</h4><p data-i="mp">Максимально толстый слой мяса</p><button class="btn add" data-p="420" data-i="ord">Заказать</button></div>
+</div></div></section>
+
+<section class="rev"><div class="c"><div class="rs">
+<div class="rv on"><p data-i="r1"></p><img src="img/avatar.png" alt=""><b data-i="vis">Посетитель</b><span data-i="nik">Николай</span></div>
+<div class="rv"><p data-i="r2"></p><img src="img/avatar.png" alt=""><b data-i="vis">Посетитель</b><span data-i="nik">Николай</span></div>
+<div class="rv"><p data-i="r3"></p><img src="img/avatar.png" alt=""><b data-i="vis">Посетитель</b><span data-i="nik">Николай</span></div>
+</div><div class="dots" id="dots"><button class="on"></button><button></button><button></button></div></div></section>
+
+<section class="gal"><h2 class="t" data-i="gt"></h2><div class="gg">
+<img class="w" src="img/gallery-1.jpg" alt=""><img src="img/gallery-2.jpg" alt=""><img src="img/gallery-3.jpg" alt="">
+<img src="img/gallery-2.jpg" alt=""><img src="img/gallery-3.jpg" alt=""><img class="w" src="img/gallery-1.jpg" alt="">
+</div></section>
+
+<section class="cooks"><h2 class="t" data-i="ct"></h2><div class="ck"><img src="img/cook-1.jpg" alt="" loading="lazy"><img src="img/cook-2.jpg" alt="" loading="lazy"><img src="img/cook-3.jpg" alt="" loading="lazy"></div></section>
+
+<section class="int" id="contact"><div class="ft"><div><h3 data-i="n4">Бронь</h3><div data-i="addr">Санкт-Петербург, ул. Примерная, 1</div><div><a href="tel:+9998887654">+999-888-76-54</a></div></div><button class="btn" data-open="bk" data-i="book">Заказ столика</button></div></section>
+
+<button id="up" aria-label="up">&#8593;</button><div id="toast"></div>
+
+<div class="md" id="bk"><div class="mb"><button class="x">&times;</button><h3 data-i="book">Заказ столика</h3>
+<form id="bf"><input required id="bn" data-p="ph1" placeholder="Имя"><input required id="bp" type="tel" data-p="ph2" placeholder="Телефон"><input required id="bd" type="datetime-local"><select id="bs"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option><option>6+</option></select>
+<button class="btn" style="width:100%;padding:13px" data-i="send">Отправить</button><div class="ok" id="bo"></div></form></div></div>
+<div class="md" id="ct"><div class="mb"><button class="x">&times;</button><h3 data-i="cart">Корзина</h3><div id="ci"></div><div class="tot" id="tt"></div><button class="btn" style="width:100%;padding:13px" id="co" data-i="chk">Оформить заказ</button><div class="ok" id="co2"></div></div></div>
+<div class="md lb" id="lb"><img alt=""></div>
+
+<script src="js/script.js"></script></body></html>
